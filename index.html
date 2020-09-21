@@ -34,7 +34,7 @@
           <div class="next"></div>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="header__slide slide swiper-slide" style="background-image: url('../img/main-slide1.jpg')">
+              <div class="header__slide slide swiper-slide" style="background-image: url('img/main-slide1.jpg')">
                 <div class="container">
                   <div class="slide__inner">
                     <p class="slide__pre-title">Our Clients Are Our First Priority</p>
@@ -45,7 +45,7 @@
                   </div>
                 </div>
               </div>
-              <div class="header__slide slide swiper-slide" style="background-image: url('../img/main-slide2.jpg')">
+              <div class="header__slide slide swiper-slide" style="background-image: url('img/main-slide2.jpg')">
                 <div class="container">
                   <div class="slide__inner">
                     <p class="slide__pre-title">We love our clients</p>
@@ -55,7 +55,7 @@
                   </div>
                 </div>
               </div>
-              <div class="header__slide slide swiper-slide" style="background-image: url('../img/main-slide3.jpg')">
+              <div class="header__slide slide swiper-slide" style="background-image: url('img/main-slide3.jpg')">
                 <div class="container">
                   <div class="slide__inner">
                     <p class="slide__pre-title">We kiss our clients anywhere!</p>
@@ -99,7 +99,7 @@
       <section class="history">
         <div class="container">
           <div class="history__inner">
-            <div class="history__image" style="background-image: url('../img/monitor.jpg')"></div>
+            <div class="history__image" style="background-image: url('img/monitor.jpg')"></div>
             <div class="history__content">
               <h3>Our history</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum corrupti, totam nam, aliquid amet pariatur deleniti veritatis hic eius, aperiam tenetur rerum odit optio quam accusantium dolorem est praesentium.</p>
@@ -139,6 +139,53 @@
           </div>
         </div>
       </div>
+      <section class="pricing">
+        <div class="container">
+          <div class="pricing__header section-header">
+            <h3 class="section-header__title">Our pricing</h3>
+            <p class="section-header__description">A 30 days free trial for all. A brief story about how this process works, keep an eye till the end.</p>
+            <div class="section-header__separator separator"></div>
+          </div>
+          <div class="pricing__inner">
+            <div class="pricing__item card js-card">
+              <h4 class="card__title">Starter</h4>
+              <ul class="card__features-list">
+                <li class="card__features-item">Competition Analysis Methods</li>
+                <li class="card__features-item">All Ranked URLs</li>
+                <li class="card__features-item">International Support System</li>
+                <li class="card__features-item">Social Media Tracking</li>
+              </ul><a class="card__button button button--pricing button--secondary button--medium">Choose plan</a>
+              <div class="pricing__halo">
+                <div class="pricing__price"><span class="pricing__cost">&#36;19</span><span class="pricing__period">per month</span></div>
+              </div>
+            </div>
+            <div class="pricing__item card js-card">
+              <h4 class="card__title">Premium</h4>
+              <ul class="card__features-list">
+                <li class="card__features-item">Competition Analysis Methods</li>
+                <li class="card__features-item">All Ranked URLs</li>
+                <li class="card__features-item">International Support System</li>
+                <li class="card__features-item">Social Media Tracking</li>
+              </ul><a class="card__button button button--pricing button--secondary button--medium">Choose plan</a>
+              <div class="pricing__halo">
+                <div class="pricing__price"><span class="pricing__cost">&#36;39</span><span class="pricing__period">per month   </span></div>
+              </div>
+            </div>
+            <div class="pricing__item card js-card">
+              <h4 class="card__title">Business</h4>
+              <ul class="card__features-list">
+                <li class="card__features-item">Competition Analysis Methods</li>
+                <li class="card__features-item">All Ranked URLs</li>
+                <li class="card__features-item">International Support System</li>
+                <li class="card__features-item">Social Media Tracking</li>
+              </ul><a class="card__button button button--pricing button--secondary button--medium">Choose plan</a>
+              <div class="pricing__halo">
+                <div class="pricing__price"><span class="pricing__cost">&#36;99</span><span class="pricing__period">per month      </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="team">
         <div class="team__inner">
           <div class="container">
@@ -207,28 +254,28 @@
                 <h4 class="contact-item__title">Email us</h4><a class="contact-item__data" href="mailto:contactus@email.com">contactus@email.com</a>
               </div>
             </div>
-            <form class="form__form client-form">
+            <form class="form__form client-form js-form">
               <div class="client-form__item">
                 <label class="client-form__label" for="">
-                  <input class="client-form__input" type="text"/><span class="client-form__label-text">Name</span>
+                  <input class="client-form__input js-input" type="text" required="required" name="name"/><span class="client-form__label-text">Name</span>
                 </label>
               </div>
               <div class="client-form__item">
                 <label class="client-form__label" for="">
-                  <input class="client-form__input" type="email"/><span class="client-form__label-text">Email</span>
+                  <input class="client-form__input js-input" type="email" required="required" name="email"/><span class="client-form__label-text">Email</span>
                 </label>
               </div>
               <div class="client-form__item">
                 <label class="client-form__label" for="">
-                  <input class="client-form__input" type="text"/><span class="client-form__label-text">Subject</span>
+                  <input class="client-form__input js-input" type="text" required="required" name="subject"/><span class="client-form__label-text">Subject</span>
                 </label>
               </div>
               <div class="client-form__item">
                 <label class="client-form__label" for="">
-                  <textarea class="client-form__input client-form__input--textarea"></textarea><span class="client-form__label-text">Message</span>
+                  <textarea class="client-form__input client-form__input--textarea js-input" name="message" required="required"></textarea><span class="client-form__label-text">Message</span>
                 </label>
               </div>
-              <button class="client-form__button button button--primary button--small">Send message</button>
+              <button class="client-form__button button button--primary button--small" type="submit">Send message</button>
             </form>
           </div>
         </div>
