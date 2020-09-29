@@ -87,7 +87,7 @@
         </div><a class="header__anchor" href="#home"><img class="anchor" src="img/anchor.png" alt="anchor"/></a>
         <div class="header__anchor-halo"> </div>
         <div class="header__slider" id="js-header-slider">
-          <div class="swiper-wrapper scene">
+          <div class="hds-wrapper scene">
             <div class="header__slide hds slide" style="background-image: url('img/main-slide1.jpg')">
               <div class="container">
                 <div class="hds__inner">
@@ -370,33 +370,32 @@
         </div>
       </section>
       <div class="stat">
-        <div class="container" data-depth="0.05">
-          <div class="stat__inner">
-            <div class="stat__item">
-              <div class="stat__icon-box"><img class="stat__icon" src="img/st-heart.png" alt="icon" data-depth="0.10"/></div>
-              <p class="stat__number js-progress" data-from="11">3891</p>
-              <p class="stat__description">User Favourites</p>
-            </div>
-            <div class="stat__item">
-              <div class="stat__icon-box"><img class="stat__icon" src="img/st-pencil.png" alt="icon" data-depth="0.10"/></div>
-              <p class="stat__number"><span class="js-progress" data-from="12" data-postfix="K">281 </span></p>
-              <p class="stat__description">Posts Last 24 Hours</p>
-            </div>
-            <div class="stat__item">
-              <div class="stat__icon-box"><img class="stat__icon" src="img/st-like.png" alt="icon" data-depth="0.10"/></div>
-              <p class="stat__number js-progress" data-from="15">618</p>
-              <p class="stat__description">Total Posts</p>
-            </div>
-            <div class="stat__item">
-              <div class="stat__icon-box"><img class="stat__icon" src="img/st-star.png" alt="icon" data-depth="0.10"/></div>
-              <p class="stat__number js-progress" data-from="18">178</p>
-              <p class="stat__description">Campaigns</p>
-            </div>
-            <div class="stat__item">
-              <div class="stat__icon-box"><img class="stat__icon" src="img/st-flag.png" alt="icon" data-depth="0.10"/></div>
-              <p class="stat__number js-progress" data-from="19">285</p>
-              <p class="stat__description">Amazing Features</p>
-            </div>
+        <div class="stat__bg"></div>
+        <div class="stat__inner">
+          <div class="stat__item">
+            <div class="stat__icon-box"><img class="stat__icon" src="img/st-heart.png" alt="icon"/></div>
+            <p class="stat__number js-progress" data-from="11">3891</p>
+            <p class="stat__description">User Favourites</p>
+          </div>
+          <div class="stat__item">
+            <div class="stat__icon-box"><img class="stat__icon" src="img/st-pencil.png" alt="icon"/></div>
+            <p class="stat__number"><span class="js-progress" data-from="12" data-postfix="K">281 </span></p>
+            <p class="stat__description">Posts Last 24 Hours</p>
+          </div>
+          <div class="stat__item">
+            <div class="stat__icon-box"><img class="stat__icon" src="img/st-like.png" alt="icon"/></div>
+            <p class="stat__number js-progress" data-from="15">618</p>
+            <p class="stat__description">Total Posts</p>
+          </div>
+          <div class="stat__item">
+            <div class="stat__icon-box"><img class="stat__icon" src="img/st-star.png" alt="icon"/></div>
+            <p class="stat__number js-progress" data-from="18">178</p>
+            <p class="stat__description">Campaigns</p>
+          </div>
+          <div class="stat__item">
+            <div class="stat__icon-box"><img class="stat__icon" src="img/st-flag.png" alt="icon"/></div>
+            <p class="stat__number js-progress" data-from="19">285</p>
+            <p class="stat__description">Amazing Features</p>
           </div>
         </div>
       </div>
@@ -591,17 +590,17 @@
               </div>
               <div class="client-form__item">
                 <label class="client-form__label" for="">
-                  <input class="client-form__input js-input" type="text" required="required" name="name"/><span class="client-form__label-text">Name</span>
+                  <input class="client-form__input js-input" type="text" name="name" required="required"/><span class="client-form__label-text">Name</span>
                 </label>
               </div>
               <div class="client-form__item">
                 <label class="client-form__label" for="">
-                  <input class="client-form__input js-input" type="email" required="required" name="email"/><span class="client-form__label-text">Email</span>
+                  <input class="client-form__input js-input" type="email" name="email" required="required"/><span class="client-form__label-text">Email</span>
                 </label>
               </div>
               <div class="client-form__item">
                 <label class="client-form__label" for="">
-                  <input class="client-form__input js-input" type="text" required="required" name="subject"/><span class="client-form__label-text">Subject</span>
+                  <input class="client-form__input js-input" type="text" name="subject" required="required"/><span class="client-form__label-text">Subject</span>
                 </label>
               </div>
               <div class="client-form__item">
